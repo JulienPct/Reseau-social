@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+:root {
+    --primary: #0488CA;
+    --padding: 5px;
+}
+
+.theme-vert {
+    --primary: green;
+}
+
 body {
     background: #F1F1F1;
     font-family: "Roboto", sans-serif;
@@ -19,7 +28,8 @@ a {
 }
 
 .topbar {
-    background: #2C3E50;
+    background: #0488CA;
+    background: var(--primary, #000);
     color: #FFF;
 }
 
